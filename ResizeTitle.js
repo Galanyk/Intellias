@@ -8,7 +8,6 @@ class ResizeTitle {
     constructor(className) {
         this._mainContainer = ResizeTitle.getByClassName(className).children[this._TextContent];
         this.init();
-        console.log(this._mainContainer)
     };
 
     static getByClassName(className) {
