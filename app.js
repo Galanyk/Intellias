@@ -1,0 +1,1 @@
+const resizeTitle = new ResizeTitle('section-header');
